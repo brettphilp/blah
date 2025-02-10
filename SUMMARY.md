@@ -2,6 +2,12 @@
 
 * [New User Guide](README.md)
   * [Customer responsibilities](new-user-guide/customer-responsibilities.md)
+  * [Accessing Densify](new-user-guide/accessing-densify.md)
+  * [ Supported platforms and object types](new-user-guide/supported-platforms-and-object-types.md)
+  * [ A word about billing data and “true” costs](new-user-guide/a-word-about-billing-data-and-true-costs.md)
+  * [Timing expectations of collection setup, analysis, results](new-user-guide/timing-expectations-of-collection-setup-analysis-results.md)
+  * [ Recommendation types](new-user-guide/recommendation-types.md)
+  * [Getting Help (statement of how support works or to call your AM)](new-user-guide/getting-help-statement-of-how-support-works-or-to-call-your-am.md)
 * [ Setting up k8s Data Collection](setting-up-k8s-data-collection.md)
 * [ Consuming Analysis Results](consuming-analysis-results.md)
 * [Automation of Optimization](automation-of-optimization.md)
