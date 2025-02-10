@@ -1,2 +1,2 @@
-# Page
+# New User Guide
 
