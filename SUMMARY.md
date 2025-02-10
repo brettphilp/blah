@@ -18,6 +18,8 @@
   * [Upgrading the forwarder](setting-up-k8s-data-collection/upgrading-the-forwarder.md)
 * [ Consuming Analysis Results](consuming-analysis-results.md)
 * [Tuning / customizing the engine](tuning-customizing-the-engine.md)
+* [Reducing Costs](reducing-costs.md)
+* [Reducing Risks](reducing-risks.md)
 * [Navigating the UI](navigating-the-ui/README.md)
   * [Nuances](navigating-the-ui/nuances.md)
   * [Consuming k8s results via API Subscription](navigating-the-ui/consuming-k8s-results-via-api-subscription.md)
