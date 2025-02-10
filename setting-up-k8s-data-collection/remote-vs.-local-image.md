@@ -1,0 +1,2 @@
+# Remote vs. local image
+
