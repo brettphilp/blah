@@ -1,2 +1,2 @@
-# New User Guide
+# Welcome
 

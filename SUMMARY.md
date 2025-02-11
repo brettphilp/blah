@@ -1,6 +1,7 @@
 # Table of contents
 
-* [New User Guide](README.md)
+* [Welcome](README.md)
+* [New User Guide](<README (1).md>)
   * [Customer responsibilities](new-user-guide/customer-responsibilities.md)
   * [Accessing Densify](new-user-guide/accessing-densify.md)
   * [ Supported platforms and object types](new-user-guide/supported-platforms-and-object-types.md)
