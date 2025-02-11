@@ -1,6 +1,6 @@
-# Tuning / customizing the engine
+# Customization
 
-(generic statement to call your AM for customization request… could be policy, analysis, UI, API etc)
+(generic statement to call your AM for customization request… could be policy, analysis, UI, tagging, API etc)
 
 
 
