@@ -1,5 +1,10 @@
 # Managed Prometheus
 
-* Pre-reqs
+## Pre-Requisites
+
+[AWS Managed Prometheus](https://www.densify.com/docs/WebHelp_Densify_Cloud/Content/Data_Collection_for_Public_Cloud_Systems/Container_Data_Collection_Overview.htm)
+
+[Azure Managed Prometheus](https://www.densify.com/docs/WebHelp_Densify_Cloud/Content/Data_Collection_for_Public_Cloud_Systems/Container_Data_Collection_Overview.htm)
+
 * Troubleshooting
 
