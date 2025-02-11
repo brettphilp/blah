@@ -6,9 +6,9 @@ Decide if you will host the data forwarder in your local image repository or ref
 
 There are 3 methods for setting up the data forwarder
 
-1. Helm - All in One Install
+1. Helm - "All in One Install"
 2. Manual Prometheus
-3. Managed Prometheus
+3. CSP Managed Prometheus
 
 
 
