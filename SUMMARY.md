@@ -6,7 +6,7 @@
   * [Accessing Densify](new-user-guide-and-faq/accessing-densify.md)
   * [Getting Help](new-user-guide-and-faq/getting-help.md)
   * [Rapid Release??](new-user-guide-and-faq/rapid-release.md)
-  * [Related Reading??](new-user-guide-and-faq/related-reading.md)
+  * [Related Reading](new-user-guide-and-faq/related-reading.md)
 * [K8s Data Collection](k8s-data-collection/README.md)
   * [Service Credential request](k8s-data-collection/service-credential-request.md)
   * [Remote vs. local image](k8s-data-collection/remote-vs.-local-image.md)
