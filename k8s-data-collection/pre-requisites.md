@@ -1,8 +1,14 @@
 # Pre-Requisites
 
-Helm - All in One Install
+Request a Service ID from support@densify.com
 
-Manual Prometheus
+Decide if you will host the data forwarder in your local image repository or reference the public image
 
-Managed Prometheus
+There are 3 methods for setting up the data forwarder
+
+1. Helm - All in One Install
+2. Manual Prometheus
+3. Managed Prometheus
+
+
 

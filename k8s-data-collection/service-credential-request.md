@@ -1,2 +1,0 @@
-# Service Credential request
-

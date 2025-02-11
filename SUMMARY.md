@@ -8,7 +8,6 @@
   * [Rapid Release](new-user-guide-and-faq/rapid-release.md)
 * [K8s Data Collection](k8s-data-collection/README.md)
   * [Pre-Requisites](k8s-data-collection/pre-requisites.md)
-  * [Service Credential request](k8s-data-collection/service-credential-request.md)
   * [Remote vs. local image](k8s-data-collection/remote-vs.-local-image.md)
   * [Helm - All In One Install](k8s-data-collection/helm-all-in-one-install.md)
   * [Manual Prometheus](k8s-data-collection/manual-prometheus.md)
