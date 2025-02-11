@@ -4,6 +4,8 @@ Request a Service ID from support@densify.com
 
 Decide if you will host the data forwarder in your local image repository or reference the public image
 
+[Egress Requirements](https://github.com/densify-dev/container-data-collection/blob/main/egress-requirements.md)
+
 There are 3 methods for setting up the data forwarder
 
 1. Helm - "All in One Install"
