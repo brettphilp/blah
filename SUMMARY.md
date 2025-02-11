@@ -31,5 +31,5 @@
   * [User Roles](using-kubex/user-roles.md)
 * [Automation](automation.md)
 * [APIs](apis/README.md)
-  * [API Subscription](apis/api-subscription.md)
+  * [API Subscription](apis/consuming-k8s-results-via-api-subscription.md)
   * [System API](apis/system-api.md)
