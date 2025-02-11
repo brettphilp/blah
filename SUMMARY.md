@@ -11,7 +11,7 @@
   * [Remote vs. local image](k8s-data-collection/remote-vs.-local-image.md)
   * [Helm - All In One Install](k8s-data-collection/helm-all-in-one-install.md)
   * [Manual Prometheus](k8s-data-collection/manual-prometheus.md)
-  * [Managed Prometheus](k8s-data-collection/managed-prometheus.md)
+  * [CSP Managed Prometheus](k8s-data-collection/csp-managed-prometheus.md)
   * [Additional Considerations](k8s-data-collection/additional-considerations.md)
   * [Confirming data is flowing](k8s-data-collection/confirming-data-is-flowing/README.md)
     * [Timing Expectations of Data Collection, Analysis, and Results](k8s-data-collection/confirming-data-is-flowing/timing-expectations-of-data-collection-analysis-and-results.md)
