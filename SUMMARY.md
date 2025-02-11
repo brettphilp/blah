@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Release Notes](README.md)
+* [Cloudex](README.md)
