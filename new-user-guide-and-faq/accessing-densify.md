@@ -17,3 +17,7 @@ A.   Please contact support@densify.com.
 **Q.  I tried to reset my password but never receive the link in my email to complete the reset.**
 
 A.   Check with your email administrator for both corporate and your own desktop spam filtering.      If you do not see the ‘reCAPTCHA’ checkbox on the Reset Password page, please close/disable any DevTools or browser plug-ins and try again by first accessing your main URL, https://<_YourInstanceName_>.densify.com then click Reset Your Password.
+
+**Q.  When is the Densify maintenance window?**
+
+A.  Wednesday night is the Densify maintenance window 3:00p to 5:00p EST for EMEA and 8:00p to 10:00p EST for NA.  Note both maintenance windows are affected by North American daylight savings, which is only meaningful for EMEA. The times are based on Canadian resource schedules and in EST/EDT.
