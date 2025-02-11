@@ -21,7 +21,7 @@
   * [Navigating the UI](using-kubex/navigating-the-ui/README.md)
     * [Container Tree View](using-kubex/navigating-the-ui/container-tree-view.md)
     * [Understanding Histograms](using-kubex/navigating-the-ui/understanding-histograms.md)
-    * [Nodes Tree View](using-kubex/navigating-the-ui/nodes-tree-view.md)
+    * [Nodes Group Analysis](using-kubex/navigating-the-ui/nodes-group-analysis.md)
     * [AI Analysis Details](using-kubex/navigating-the-ui/ai-analysis-details.md)
   * [ Recommendation types](using-kubex/recommendation-types/README.md)
     * [Reducing Costs](using-kubex/recommendation-types/reducing-costs/README.md)
