@@ -1,7 +1,13 @@
 # Reducing Risks
 
-* Fix risk first then save money by downsizing
-* Unset req/limits
+**Kubernetes risks include;**
+
+* CPU Throttling
+* Pod Out of Memory (OOM) kills and container process termination
+
+> Fix risk first then save money by downsizing
+
+Risk are caused by the deployment of containers with unset or poorly set request and limit values for CPU and memory resources.
 
 #### Reducing Risk
 
