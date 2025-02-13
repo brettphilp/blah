@@ -4,7 +4,7 @@ The Kubex interface provides a comprehensive, at-a-glance view of your entire co
 
 #### Main Screen Overview
 
-The primary screen of the Kubex user interface displays a series of histograms that categorize containers based on their CPU and memory configuration:
+The primary screen of the Kubex user interface consists of a [navigator tree with views and filters](https://www.densify.com/docs-kubex/Content/Videos/Using%20the%20Tree%20Viewer.htm)  where you can contextually display a series of histograms that categorize containers based on their CPU and memory configuration:
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
