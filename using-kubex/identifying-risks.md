@@ -18,9 +18,21 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 ### **Detect the OOM Kills and Restarts**&#x20;
 
-* Use the views and filters to select the portion of the infrastructure to focus on.
+* Use the views and filters to select the portion of the infrastructure to focus on.  Here we've chosen the k8sengexp cluster in our demo environment.
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+
+
 * Examine the histogram to determine if the Memory Requests or Limits are too small (red) or not set (gray)
-* Double click on the red or gray bars to drill down to those impacted pods
-* &#x20;
+
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+* Click on the blue headers to drill into those impacted pods.  Here we've gone into the "Memory Request Shortfall" group of risky pods to examine the risks
+*
+
+    <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ### **Detect Host Memory Pressure**
