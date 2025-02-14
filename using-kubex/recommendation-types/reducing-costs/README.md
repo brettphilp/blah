@@ -4,15 +4,17 @@ To effectively reduce costs in Kubernetes, consider optimizing resource allocati
 
 **Kubernetes costs and impacts include;**
 
-* Decrease pod requests
-* Cheaper nodes (resize nodes)
-* Less nodes (scale down the cluster)
+* CPU or Memory Request too high (stranded resources)
+* Cluster Scaling too high (too many nodes active)
 
 > <mark style="background-color:blue;">TIP: Fix risks first then save money by downsizing</mark>
 
 **Steps to Reduce Costs**
 
-1.
+1. Decrease pod requests
+2. Namespace quotas?
+3. Cheaper nodes (resize nodes)
+4. Less nodes (scale down the cluster) - too many nodes are active due to full or imbalanced nodes
 
 **A word about billing data and “true” costs**&#x20;
 

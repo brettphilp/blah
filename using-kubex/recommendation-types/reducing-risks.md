@@ -16,16 +16,7 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 **Steps to Reduce Risks**
 
-1.  Identify risks
-
-    1. OOM&#x20;
-    2. Host pressure
-
-
-
-
-
-####
-
-*
+1. Identify risks
+   1. OOM&#x20;
+   2. Host pressure
 
