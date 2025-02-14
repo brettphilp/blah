@@ -1,4 +1,4 @@
-# Identifying Risks
+# Detecting Risks
 
 Risk are caused by the deployment of containers with unset or poorly set request and limit values for CPU and memory resources.
 
@@ -14,9 +14,7 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 > <mark style="background-color:blue;">TIP: Fix risks first then reduce waste</mark>
 
-**Steps to Reduce Risks**
+**Steps to Detect Risks**
 
-1. Identify risks
-   1. detect the OOM kills&#x20;
-   2. detect host memory pressure
-
+* detect the OOM kills
+* detect host memory pressure

@@ -18,7 +18,7 @@
   * [Upgrading the forwarder](k8s-data-collection/upgrading-the-forwarder.md)
   * [Troubleshooting](k8s-data-collection/troubleshooting.md)
 * [Using Kubex](using-kubex/README.md)
-  * [Identifying Risks](using-kubex/identifying-risks.md)
+  * [Detecting Risks](using-kubex/detecting-risks.md)
   * [Identifying Waste](using-kubex/identifying-waste.md)
   * [Taking Action](using-kubex/taking-action.md)
   * [AI Analysis Details](using-kubex/navigating-the-ui/ai-analysis-details.md)
