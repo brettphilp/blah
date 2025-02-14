@@ -1,4 +1,4 @@
-# Reducing Waste
+# Identifying Waste
 
 To effectively reduce waste in Kubernetes, consider optimizing resource allocation by right-sizing your workloads. Analyze the current usage patterns of your pods and nodes to identify opportunities for downsizing or terminating underutilized resources. Leverage autoscaling to dynamically adjust resources based on real-time demand, ensuring efficient use of infrastructure. Use cost visualization tools to gain insights into spending patterns. For public cloud hosted clusters, regularly review and adjust your provider settings to align with any negotiated pricing discounts available to you.
 
@@ -11,15 +11,12 @@ To effectively reduce waste in Kubernetes, consider optimizing resource allocati
 
 **Steps to Reduce Waste**
 
-1. Identify waste
-   1. pod downsizing of requests
-   2. Namespace quotas?
-   3. Cheaper nodes (resize nodes)
-   4. Less nodes (scale down the cluster) - too many nodes are active due to full or imbalanced nodes
-2. How to communicate recommended actions
-3. How to resize a pod
-4. How to resize a node
-5. How to rescale a cluster
+* Identify waste
+  * Identify pod requests to set or reduce
+  * Identify Namespace quotas to set or reduce?
+  * Identify full or imbalanced nodes
+  * Identify node group rescaling options&#x20;
+  * Less nodes (scale down the cluster) - too many nodes are active due to full or imbalanced nodes
 
 
 

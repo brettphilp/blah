@@ -1,4 +1,4 @@
-# Reducing Risks
+# Identifying Risks
 
 Risk are caused by the deployment of containers with unset or poorly set request and limit values for CPU and memory resources.
 
@@ -17,8 +17,8 @@ Risk are caused by the deployment of containers with unset or poorly set request
 **Steps to Reduce Risks**
 
 1. Identify risks
-   1. OOM&#x20;
-   2. Host pressure
+   1. detect the OOM kills&#x20;
+   2. detect host memory pressure
 2. How to communicate recommended actions
 3. How to resize a pod
 4. How to resize a node
