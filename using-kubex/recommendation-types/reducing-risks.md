@@ -16,28 +16,16 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 **Steps to Reduce Risks**
 
+1.  Identify risks
+
+    1. OOM&#x20;
+    2. Host pressure
 
 
 
 
-#### Reducing Risk
 
-1. **Comprehensive Analysis**:
-   * Kubex conducts deep analysis of Kubernetes environments, including both containers and nodes.
-   * Recommendations are made based on the entire infrastructure context to avoid harmful changes.
-2. **Cost and Risk Awareness**:
-   * Many organizations experience a blind spot regarding costs and risks associated with Kubernetes.
-   * The software addresses potential waste and resource sensitivity, ensuring stability before efficiency.
-3. **Monitoring and Alerts**:
-   * The system identifies and highlights containers and nodes at risk, such as those exceeding memory limits or causing restarts due to memory issues.
-4. **Data-Driven Recommendations**:
-   * Recommendations are provided based on historical data and usage patterns, ensuring that changes will not negatively impact the system.
+####
 
-#### Performance Improvement
-
-1. **Optimization of Resources**:
-   * Kubex identifies oversized containers and recommends adjustments to reduce resource waste, which can lead to significant cost savings.
-2. **Customizable Views**:
-
-* Users can create tailored views and filters to analyze specific aspects of their environments, helping to focus on critical performance metrics.
+*
 

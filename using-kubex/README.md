@@ -4,7 +4,7 @@ The Kubex interface provides a comprehensive, at-a-glance view of your entire co
 
 #### Main Screen Overview
 
-The primary screen of the Kubex user interface consists of a [navigator tree with views and filters](https://www.densify.com/docs-kubex/Content/Videos/Using%20the%20Tree%20Viewer.htm)  where you can contextually display a series of histograms that categorize containers based on their CPU and memory configuration.
+The primary screen of the Kubex user interface consists of a [navigator tree with views and filters](https://www.densify.com/docs-kubex/Content/Videos/Using%20the%20Tree%20Viewer.htm)  where you can contextually display a series of histograms that categorize containers based on their CPU and memory configuration.  Users can create tailored views and filters to analyze specific aspects of their environments, helping to focus on critical performance metrics.
 
 The ability to visualize resource allocation through histograms allows organizations to better understand how efficiently their containers are using CPU and memory resources. By knowing where inefficiencies lie, companies can make informed decisions about resource adjustments.
 
