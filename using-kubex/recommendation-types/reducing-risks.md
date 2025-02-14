@@ -7,7 +7,11 @@ Risk are caused by the deployment of containers with unset or poorly set request
 * CPU Request or Limit too small (CPU Throttling)
 * Limit too big (Noisy Neighbor)
 * Memory Request too small (pod termination via OOM kill)
-* Memory Limit too small (process termination within container via OOM kill)&#x20;
+* Memory Limit too small (process termination within container via OOM kill)
+* CPU Request not set (node performance by over stacking)
+* CPU Limit not set (Noisy Neighbor and CPU Throttling)
+*
+*
 
 > <mark style="background-color:blue;">TIP: Fix risks first then save money by downsizing</mark>
 
@@ -34,9 +38,7 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 1. **Optimization of Resources**:
    * Kubex identifies oversized containers and recommends adjustments to reduce resource waste, which can lead to significant cost savings.
-2. **Automated Solutions**:
-   * Automation options such as our [Mutating Admission Controller](../../automation.md) are available to streamline the implementation of recommended changes, minimizing manual intervention.
-3. **Customizable Views**:
-   * Users can create tailored views and filters to analyze specific aspects of their environments, helping to focus on critical performance metrics.
-4. **Integration with Existing Systems**:
-   * Kubex can [integrate with existing deployment pipelines](../../apis/), enabling seamless updates and configurations based on recommendations.
+2. **Customizable Views**:
+
+* Users can create tailored views and filters to analyze specific aspects of their environments, helping to focus on critical performance metrics.
+
