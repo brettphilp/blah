@@ -11,10 +11,17 @@ To effectively reduce waste in Kubernetes, consider optimizing resource allocati
 
 **Steps to Reduce Waste**
 
-1. Decrease pod requests
-2. Namespace quotas?
-3. Cheaper nodes (resize nodes)
-4. Less nodes (scale down the cluster) - too many nodes are active due to full or imbalanced nodes
+1. Identify waste
+   1. pod downsizing of requests
+   2. Namespace quotas?
+   3. Cheaper nodes (resize nodes)
+   4. Less nodes (scale down the cluster) - too many nodes are active due to full or imbalanced nodes
+2. How to communicate recommended actions
+3. How to resize a pod
+4. How to resize a node
+5. How to rescale a cluster
+
+
 
 **A word about billing data and “true” costs**&#x20;
 

@@ -19,7 +19,7 @@
   * [Troubleshooting](k8s-data-collection/troubleshooting.md)
 * [Using Kubex](using-kubex/README.md)
   * [Reducing Risks](using-kubex/recommendation-types/reducing-risks.md)
-  * [Reducing Waste](using-kubex/reducing-waste.md)
+  * [Reducing Waste](using-kubex/recommendation-types/reducing-costs/README.md)
   * [AI Analysis Details](using-kubex/navigating-the-ui/ai-analysis-details.md)
   * [Nodes Group Analysis](using-kubex/navigating-the-ui/nodes-group-analysis.md)
   * [ Consuming Analysis Results](using-kubex/consuming-analysis-results.md)
