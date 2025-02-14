@@ -32,7 +32,8 @@ Risk are caused by the deployment of containers with unset or poorly set request
 *
 
     <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+* Sorting on "Restarts - Last Day" we can quickly detects pods with restarts and evaluate the "% Nodes Memory Saturation" to see if it may be correlated to a full host.  Scrolling across the lower panel of Utilization Charts we can see time of day information for the "No. of Restarts"
 
-
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### **Detect Host Memory Pressure**
