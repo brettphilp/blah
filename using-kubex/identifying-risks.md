@@ -28,13 +28,13 @@ Click on the blue headers to drill into those impacted pods.  Here we've gone in
 
 ### Detecting Noisy Neighbors
 
-Limit is too big
+Select a group of systems then examine the histogram to determine if the CPU or Memory Limits are not set (gray), or too big (yellow).
 
-CPU Limit not set
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-Memory Limit not set
+Click on the blue headers to drill into those impacted pods.  Here we've gone into the "Oversized Memory Limit" group of risky pods to examine the risks.
 
-???
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ### Detecting Container Process Termination
 
