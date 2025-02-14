@@ -10,3 +10,17 @@ How to resize a pod&#x20;
 How to resize a node
 
 How to rescale a cluster
+
+**How to fix...**
+
+CPU Throttling&#x20;
+
+Noisy Neighbors&#x20;
+
+Node Over Stacking&#x20;
+
+OOM Kills and Restarts
+
+Stranded Resources&#x20;
+
+Too Many Nodes Active

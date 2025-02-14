@@ -14,8 +14,6 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 \*_coming soon_
 
-> <mark style="background-color:blue;">TIP: Fix risks first then reduce waste</mark>
-
 ## **Steps to Detect Risks** ![](<../.gitbook/assets/image (2) (1).png>)
 
 ### **Detecting** CPU Throttling
