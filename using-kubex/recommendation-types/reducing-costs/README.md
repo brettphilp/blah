@@ -1,11 +1,18 @@
 # Reducing Costs
 
-* Fix risk first then save money by downsizing
+To effectively reduce costs in Kubernetes, consider optimizing resource allocation by right-sizing your workloads. Analyze the current usage patterns of your pods and nodes to identify opportunities for downsizing or terminating underutilized resources. Leverage autoscaling to dynamically adjust resources based on real-time demand, ensuring efficient use of infrastructure. Implement resource quotas and limits to prevent over-provisioning, and use cost visualization tools to gain insights into spending patterns. Regularly review and adjust your cloud provider settings to align with any negotiated pricing discounts available to you.
+
+**Kubernetes costs and impacts include;**
+
+* Decrease pod requests
+* Cheaper nodes (resize nodes)
+* Less nodes (scale down the cluster)
+
+> <mark style="background-color:blue;">TIP: Fix risks first then save money by downsizing</mark>
+
 *
-* To effectively reduce costs in Kubernetes, consider optimizing resource allocation by right-sizing your workloads. Analyze the current usage patterns of your pods and nodes to identify opportunities for downsizing or terminating underutilized resources. Leverage autoscaling to dynamically adjust resources based on real-time demand, ensuring efficient use of infrastructure. Implement resource quotas and limits to prevent over-provisioning, and use cost visualization tools to gain insights into spending patterns. Regularly review and adjust your cloud provider settings to align with any negotiated pricing discounts available to you.
 * Node metrics and views - Explanation of how container optimization prior to node optimization impacts costs
-* Downsizing pods
-* Downsizing/terminating nodes
+*
 
 A word about billing data and “true” costs&#x20;
 
