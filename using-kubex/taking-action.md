@@ -8,9 +8,12 @@ How to communicate recommended actions
 
 How to resize a pod&#x20;
 
-How to resize a node
+* Manually (Brian's nodes?)
+* [Mutating Admission Controller](../automation.md)
 
-How to rescale a cluster
+How to resize a node\* coming soon
+
+How to rescale a cluster\* coming soon
 
 **How to fix...**
 
