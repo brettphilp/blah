@@ -14,7 +14,10 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 > <mark style="background-color:blue;">TIP: Fix risks first then reduce waste</mark>
 
-**Steps to Detect Risks**
+**Steps to Detect Risks** ![](<../.gitbook/assets/image (2).png>)
 
-* detect the OOM kills
+* detect the OOM kills and restarts&#x20;
+  * Memory Request too small or not set (pod OOM kills)
+  * Memory Limit too small (container process termination via OOM kills)
+  * Memory Limit not set (Noisy Neighbor and pod OOM kills)
 * detect host memory pressure

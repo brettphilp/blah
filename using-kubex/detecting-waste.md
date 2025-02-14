@@ -9,7 +9,7 @@ To effectively reduce waste in Kubernetes, consider optimizing resource allocati
 
 > <mark style="background-color:blue;">TIP: Fix risks first then reduce waste</mark>
 
-**Steps to Detect Waste**
+**Steps to Detect Waste** ![](<../.gitbook/assets/image (1).png>)
 
 * Detect pod requests to set or reduce
 * Detect Namespace quotas to set or reduce?
