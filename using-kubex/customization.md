@@ -1,7 +1,10 @@
 # Customization
 
-(generic statement to call your AM for customization request… could be policy, analysis, UI, tagging, API etc)
+generic statement to call your AM for customization request…&#x20;
 
-
-
-Excluding/snoozing recos
+* policy tuning
+* analysis customization
+* UI changes or custom reporting
+* tag mapping
+* API Subscriptions
+* Excluding/snoozing recos
