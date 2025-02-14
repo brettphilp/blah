@@ -9,14 +9,13 @@ To effectively reduce waste in Kubernetes, consider optimizing resource allocati
 
 > <mark style="background-color:blue;">TIP: Fix risks first then reduce waste</mark>
 
-**Steps to Reduce Waste**
+**Steps to Detect Waste**
 
-* Identify waste
-  * Identify pod requests to set or reduce
-  * Identify Namespace quotas to set or reduce?
-  * Identify full or imbalanced nodes
-  * Identify node group rescaling options&#x20;
-  * Less nodes (scale down the cluster) - too many nodes are active due to full or imbalanced nodes
+* Detect pod requests to set or reduce
+* Detect Namespace quotas to set or reduce?
+* Detect full or imbalanced nodes
+* Detect node group rescaling options&#x20;
+* Less nodes (scale down the cluster) - too many nodes are active due to full or imbalanced nodes
 
 
 
