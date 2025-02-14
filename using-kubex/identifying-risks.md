@@ -19,8 +19,4 @@ Risk are caused by the deployment of containers with unset or poorly set request
 1. Identify risks
    1. detect the OOM kills&#x20;
    2. detect host memory pressure
-2. How to communicate recommended actions
-3. How to resize a pod
-4. How to resize a node
-5. How to rescale a cluster
 
