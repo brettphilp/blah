@@ -42,7 +42,9 @@ Click on the blue headers to drill into those impacted pods.  Here we've gone in
 
 ???
 
+### Detecting Cluster Imbalance
 
+???
 
 ### **Detect the OOM Kills and Restarts**&#x20;
 
