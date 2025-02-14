@@ -7,10 +7,12 @@ Risk are caused by the deployment of containers with unset or poorly set request
 * CPU Request or Limit too small (CPU Throttling)
 * Limit too big (Noisy Neighbor)
 * Memory Request too small or not set (pod OOM kills)
-* Memory Limit too small (container process termination via OOM kills)
+* Memory Limit too small (container process termination via OOM kills)\*
 * CPU Request not set (node performance by over stacking)
 * CPU Limit not set (Noisy Neighbor and CPU Throttling)
 * Memory Limit not set (Noisy Neighbor and pod OOM kills)
+
+\*_coming soon_
 
 > <mark style="background-color:blue;">TIP: Fix risks first then reduce waste</mark>
 
@@ -35,10 +37,6 @@ Select a group of systems then examine the histogram to determine if the CPU or 
 Click on the blue headers to drill into those impacted pods.  Here we've gone into the "Oversized Memory Limit" group of risky pods to examine the risks.
 
 <figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
-### Detecting Container Process Termination
-
-???
 
 ### Detecting Node Over Stacking
 
