@@ -50,17 +50,7 @@ Click the link for "Node Group Analysis" at the top of the tabular view.  We the
 
 Next from the left-side view and filter navigator we pick the "GKE" cluster, expand the cluster to see the node pools and choose the "pool-1" group.  We then picked "Nodes" from above the tabular view.  Finally we descend sorted on "Memory Utilization" to identify a troubled node.
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-
-
-
-
-
-Next from the navigation views and filter panel we pick the cluster we're interested in.  For this example we chose "A
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ### **Detect the OOM Kills and Restarts**&#x20;
 
