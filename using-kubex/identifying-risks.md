@@ -16,23 +16,37 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 ## **Steps to Detect Risks** ![](<../.gitbook/assets/image (2).png>)
 
-### **Choose the context for detecting risks**
-
-Use the views and filters to select the portion of the infrastructure to focus on.  Here we've chosen the k8sengexp cluster in our demo environment.
-
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
 ### **Detecting** CPU Throttling
+
+CPU Request or Limit too small
+
+CPU Limit not set
 
 ???
 
 ### Detecting Noisy Neighbors
 
+Limit is too big
+
+CPU Limit not set
+
+Memory Limit not set
+
 ???
+
+### Detecting Container Process Termination
+
+???
+
+### Detecting Node Over Stacking
+
+???
+
+
 
 ### **Detect the OOM Kills and Restarts**&#x20;
 
-* Examine the histogram to determine if the Memory Requests or Limits are too small (red) or not set (gray)
+* First select a group of systems then examine the histogram to determine if the Memory Requests or Limits are too small (red) or not set (gray)
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
@@ -44,5 +58,3 @@ Use the views and filters to select the portion of the infrastructure to focus o
 *
 
     <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
-
-### **Detect Host Memory Pressure**
