@@ -14,7 +14,7 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 > <mark style="background-color:blue;">TIP: Fix risks first then save money by downsizing</mark>
 
-
+**Steps to Reduce Risks**
 
 
 
