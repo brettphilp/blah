@@ -40,11 +40,13 @@ Click on the blue headers to drill into those impacted pods.  Here we've gone in
 
 ### Detecting Node Over Stacking
 
-???
+Select a group of systems then examine the histogram to determine if the CPU Requests are not set (gray).
 
-### Detecting Cluster Imbalance
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-???
+Click on the blue headers to drill into those impacted pods.  Here we've gone into the "CPU Request Shortfall" group of risky pods to examine the risks.
+
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 ### **Detect the OOM Kills and Restarts**&#x20;
 
