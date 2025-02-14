@@ -1,15 +1,15 @@
-# Reducing Costs
+# Reducing Waste
 
-To effectively reduce costs in Kubernetes, consider optimizing resource allocation by right-sizing your workloads. Analyze the current usage patterns of your pods and nodes to identify opportunities for downsizing or terminating underutilized resources. Leverage autoscaling to dynamically adjust resources based on real-time demand, ensuring efficient use of infrastructure. Implement resource quotas and limits to prevent over-provisioning, and use cost visualization tools to gain insights into spending patterns. For public cloud hosted clusters, regularly review and adjust your provider settings to align with any negotiated pricing discounts available to you.
+To effectively reduce waste in Kubernetes, consider optimizing resource allocation by right-sizing your workloads. Analyze the current usage patterns of your pods and nodes to identify opportunities for downsizing or terminating underutilized resources. Leverage autoscaling to dynamically adjust resources based on real-time demand, ensuring efficient use of infrastructure. Use cost visualization tools to gain insights into spending patterns. For public cloud hosted clusters, regularly review and adjust your provider settings to align with any negotiated pricing discounts available to you.
 
-**Kubernetes costs and impacts include;**
+**Kubernetes waste and impacts include;**
 
 * CPU or Memory Request too high (stranded resources)
 * Cluster Scaling too high (too many nodes active)
 
-> <mark style="background-color:blue;">TIP: Fix risks first then save money by downsizing</mark>
+> <mark style="background-color:blue;">TIP: Fix risks first then reduce waste</mark>
 
-**Steps to Reduce Costs**
+**Steps to Reduce Waste**
 
 1. Decrease pod requests
 2. Namespace quotas?

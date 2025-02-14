@@ -12,7 +12,7 @@ Risk are caused by the deployment of containers with unset or poorly set request
 * CPU Limit not set (Noisy Neighbor and CPU Throttling)
 * Memory Limit not set (Noisy Neighbor and pod OOM kills)
 
-> <mark style="background-color:blue;">TIP: Fix risks first then save money by downsizing</mark>
+> <mark style="background-color:blue;">TIP: Fix risks first then reduce waste</mark>
 
 **Steps to Reduce Risks**
 

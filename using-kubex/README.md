@@ -1,6 +1,6 @@
 # Using Kubex
 
-The Kubex interface provides a comprehensive, at-a-glance view of your entire container landscape, helping you understand resource allocations from both a performance (Reducing Risk) and a cost-saving (Reducing Costs) perspective.
+The Kubex interface provides a comprehensive, at-a-glance view of your entire container landscape, helping you understand resource allocations from both a performance (Reducing Risk) and a cost-saving (Reducing Waste) perspective.
 
 #### Main Screen Overview
 
@@ -10,7 +10,7 @@ The ability to visualize resource allocation through histograms allows organizat
 
 The visual nature of the histograms can also facilitate better communication among different teams within an organization. By presenting data in an easily digestible format, stakeholders can quickly understand resource allocation issues and collaborate on solutions.
 
-The histogram not only highlights inefficiencies but also allows companies to identify potential waste. By pinpointing containers that are consuming unnecessary resources, organizations can streamline their operations and save costs.
+The histogram not only highlights inefficiencies but also allows companies to identify potential waste. By pinpointing containers that are consuming unnecessary resources, organizations can streamline their operations and reduce waste.
 
 The color-coded system (red, yellow, green) is a crucial feature that simplifies the complex data associated with resource health. It allows users to quickly ascertain which containers are at risk (red), which are over-allocated (yellow), and which are functioning optimally (green), making it easier to address issues before they escalate.
 
@@ -20,7 +20,7 @@ The ability to group histograms by application, business unit, or region provide
 
 With the insights gained from these visualizations, teams can take a proactive approach to resource management. Rather than waiting for issues to arise, organizations can continuously monitor and adjust resource allocations based on real-time data.
 
-* **CPU Requests**: Each bar in the histogram represents the number of containers within a specific configuration range. For instance, an excessive number of containers without specified CPU requests can introduce risk, as exemplified by the 243 containers missing this setting in our demonstration. Containers inadequately or excessively utilizing CPU resources are annotated to highlight adjustment opportunities, with oversized allocations typically indicating a chance to reduce costs.
+* **CPU Requests**: Each bar in the histogram represents the number of containers within a specific configuration range. For instance, an excessive number of containers without specified CPU requests can introduce risk, as exemplified by the 243 containers missing this setting in our demonstration. Containers inadequately or excessively utilizing CPU resources are annotated to highlight adjustment opportunities, with oversized allocations typically indicating a chance to reduce waste.
 * **Memory Requests**: Memory management presents nuance, with some containers under-allocated and others consuming more than necessary. The histograms help visualize these disparities, highlighting containers with missing memory requests that pose a risk of node overstacking and operational instability. The interface flags such issues, advising corrective measures to prevent excessive memory usage that Kubernetes cannot properly manage.
 
 #### Detailed Insights
