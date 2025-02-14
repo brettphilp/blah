@@ -18,11 +18,13 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 ### **Detecting** CPU Throttling
 
-CPU Request or Limit too small
+Select a group of systems then examine the histogram to determine if the CPU Requests or Limits are too small (red), or not set (gray).
 
-CPU Limit not set
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-???
+Click on the blue headers to drill into those impacted pods.  Here we've gone into the "CPU Request Shortfall" group of risky pods to examine the risks.
+
+<figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 ### Detecting Noisy Neighbors
 
@@ -46,7 +48,7 @@ Memory Limit not set
 
 ### **Detect the OOM Kills and Restarts**&#x20;
 
-* First select a group of systems then examine the histogram to determine if the Memory Requests or Limits are too small (red) or not set (gray)
+Select a group of systems then examine the histogram to determine if the Memory Requests or Limits are too small (red) or not set (gray)
 
 <figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
