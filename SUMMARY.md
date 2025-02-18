@@ -5,6 +5,7 @@
   * [Customer Responsibilities](new-user-guide-and-faq/customer-responsibilities.md)
   * [Accessing Densify](new-user-guide-and-faq/accessing-densify.md)
   * [Timing Expectations of Data Collection, Analysis, and Results](k8s-data-collection/confirming-data-is-flowing/timing-expectations-of-data-collection-analysis-and-results.md)
+  * [A word about billing data and “true” costs](new-user-guide-and-faq/a-word-about-billing-data-and-true-costs.md)
   * [Getting Help](new-user-guide-and-faq/getting-help.md)
   * [Rapid Release](new-user-guide-and-faq/rapid-release.md)
 * [K8s Data Collection](k8s-data-collection/README.md)
