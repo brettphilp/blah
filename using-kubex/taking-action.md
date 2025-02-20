@@ -9,7 +9,7 @@ How to communicate recommended actions
 How to resize a pod&#x20;
 
 * Manually (Brian's nodes?)
-* [Mutating Admission Controller](../automation.md)
+* [Mutating Admission Controller](../automation/)
 
 How to resize a node\* coming soon
 
