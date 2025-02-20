@@ -15,7 +15,6 @@
   * [In-Cluster Prometheus](k8s-data-collection/in-cluster-prometheus.md)
   * [CSP Managed Prometheus](k8s-data-collection/csp-managed-prometheus.md)
   * [Additional Considerations](k8s-data-collection/additional-considerations.md)
-  * [Confirming data is flowing](k8s-data-collection/confirming-data-is-flowing/README.md)
   * [Upgrading the forwarder](k8s-data-collection/upgrading-the-forwarder.md)
   * [Troubleshooting](k8s-data-collection/troubleshooting.md)
 * [Using Kubex](using-kubex/README.md)
