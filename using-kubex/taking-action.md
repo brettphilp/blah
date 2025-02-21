@@ -1,10 +1,18 @@
 # Taking Action
 
-How to communicate recommended actions
+* data load
+* analyze
+* scrutinize
+* campaign/socialize
+  * Report extracts&#x20;
+  * Integrate data into a BI dashboard (PowerBI example)
+* change window
+* execute change manually or via [automation](../automation/)
+*
 
-* consider it from the consumer side… ie: someone in FinOps or an Ops team
-* Best practice on engagement with platform owners – BI data flows and campaigning with FinOps or Dev teams
-* blurb on fixing risk before fixing waste&#x20;
+
+
+* (Hillier) blurb on value of fixing risk before fixing waste&#x20;
 
 How to resize a pod&#x20;
 
