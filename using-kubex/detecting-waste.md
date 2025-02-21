@@ -23,10 +23,16 @@ Click on the blue headers to drill into those impacted pods. Here we've gone int
 
 ### Detect full or imbalanced nodes
 
-* [https://www.densify.com/docs-kubex/Content/Kubex/Node%20Group%20Analysis.htm](https://www.densify.com/docs-kubex/Content/Kubex/Node%20Group%20Analysis.htm)
+[https://www.densify.com/docs-kubex/Content/Kubex/Node%20Group%20Capacity%20View.htm](https://www.densify.com/docs-kubex/Content/Kubex/Node%20Group%20Capacity%20View.htm)
 
 ### Detect node group rescaling options&#x20;
 
+[https://www.densify.com/docs-kubex/Content/Kubex/Node%20Group%20Capacity%20View.htm](https://www.densify.com/docs-kubex/Content/Kubex/Node%20Group%20Capacity%20View.htm)
+
 ### Less nodes (scale down the cluster) - too many nodes are active due to full or imbalanced nodes
 
+[https://www.densify.com/docs/WebHelp\_Densify\_Cloud/Content/Densify\_Com/Working\_with\_ASGs.htm?Highlight=asg](https://www.densify.com/docs/WebHelp_Densify_Cloud/Content/Densify_Com/Working_with_ASGs.htm?Highlight=asg)
+
 ### Detect Namespace quotas to set or reduce?
+
+\*Coming soon
