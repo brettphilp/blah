@@ -8,14 +8,14 @@ Here we show the Namespace level for a group of containers with memory request r
 
 <figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
-<mark style="color:yellow;">Topics for consideration??</mark>
+From here customers often find it helpful to extract or publish these recommendations to internal users.  FinOps practitioners refer to this stage as socializing or campaigning of the optimization recommendations. &#x20;
 
-* <mark style="color:yellow;">scrutinize</mark>
-* <mark style="color:yellow;">campaign/socialize</mark>
-  * <mark style="color:yellow;">Report extracts</mark>&#x20;
-  * <mark style="color:yellow;">Integrate data into a BI dashboard (PowerBI example)</mark>
-* <mark style="color:yellow;">change window</mark>
-* <mark style="color:yellow;">execute change manually or via</mark> [<mark style="color:yellow;">automation</mark>](../automation/)
+Extraction can be accomplished via the extract widget in the UI and publishing to third party BI tool can be accomplished via the [Densify API.](../api-and-integration/)
+
+Once application owners are in agreement to action, the recommendations can then be adopted through desired [DevOps or GitOps workflows](https://www.densify.com/resources/architecture-itsm-controlled-optimization-containers/) as per usual change operations.
+
+
+
 *
 * (Hillier) blurb on value of fixing risk before fixing waste&#x20;
 
