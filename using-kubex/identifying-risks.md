@@ -20,7 +20,7 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 \*_coming soon_
 
-## **Steps to Detect Risks** ![](<../.gitbook/assets/image (2) (1).png>)
+## **Steps to Detect Risks** ![](<../.gitbook/assets/image (2) (1) (1).png>)
 
 ### **Detecting** CPU Throttling
 
@@ -46,11 +46,11 @@ Click on the blue headers to drill into those impacted pods.  Here we've gone in
 
 Select Nodes from the left-side navigator.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click the link for "Node Group Analysis" at the top of the tabular view.  We then descend sort the "Average Memory Utilization" column and see the node groups with very high memory usage.  We'll take a closer look at the first node pool "pool-1" in the GKE cluster.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next from the left-side view and filter navigator we pick the "GKE" cluster, expand the cluster to see the node pools and choose the "pool-1" group.  We then picked "Nodes" from above the tabular view.  Finally we descend sorted on "Memory Utilization" to identify a troubled node.
 
@@ -60,7 +60,7 @@ Next from the left-side view and filter navigator we pick the "GKE" cluster, exp
 
 Select a group of systems then examine the histogram to determine if the Memory Requests or Limits are too small (red) or not set (gray)
 
-<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Click on the blue headers to drill into those impacted pods.  Here we've gone into the "Memory Request Shortfall" group of risky pods to examine the risks
 *

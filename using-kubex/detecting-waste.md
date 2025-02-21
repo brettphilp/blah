@@ -7,15 +7,13 @@ To effectively reduce waste in Kubernetes, consider optimizing resource allocati
 * Stranded Resource - CPU or Memory Request too high or not set
 * Too Many Nodes Active - Cluster Scaling too high&#x20;
 
-## **Steps to Detect Waste** ![](<../.gitbook/assets/image (1) (1) (1) (1) (1).png>)
+## **Steps to Detect Waste** ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
 
 ### Detect pod unset requests or reduce requests
 
 Select a group of systems then examine the histogram to determine if the CPU or Memory Requests are too high (yellow).
 
-
-
-<mark style="background-color:yellow;">\*</mark><mark style="background-color:yellow;">**EDITING**</mark><mark style="background-color:yellow;">\*</mark>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Click on the blue headers to drill into those impacted pods. Here we've gone into the "Memory Request Surplus" group of pods with to examine the waste.
 
