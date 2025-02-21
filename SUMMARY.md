@@ -10,7 +10,6 @@
   * [Timing Expectations of Data Collection, Analysis, and Results](new-user-guide/timing-expectations-of-data-collection-analysis-and-results.md)
   * [A word about billing data and “true” costs](new-user-guide/a-word-about-billing-data-and-true-costs.md)
   * [Getting Help](new-user-guide/getting-help.md)
-  * [Rapid Release](new-user-guide/rapid-release.md)
 * [Getting Started](getting-started/README.md)
   * [Step by Step Guide to Connect K8s Clusters to Kubex](getting-started/step-by-step-guide-to-connect-k8s-clusters-to-kubex/README.md)
     * [Pre-Requisites](getting-started/step-by-step-guide-to-connect-k8s-clusters-to-kubex/pre-requisites.md)
