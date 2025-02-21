@@ -33,6 +33,3 @@ Click on the blue headers to drill into those impacted pods. Here we've gone int
 
 [https://www.densify.com/docs/WebHelp\_Densify\_Cloud/Content/Densify\_Com/Working\_with\_ASGs.htm?Highlight=asg](https://www.densify.com/docs/WebHelp_Densify_Cloud/Content/Densify_Com/Working_with_ASGs.htm?Highlight=asg)
 
-### Detect Namespace quotas to set or reduce?
-
-\*Coming soon
