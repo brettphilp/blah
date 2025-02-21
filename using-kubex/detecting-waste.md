@@ -13,11 +13,11 @@ To effectively reduce waste in Kubernetes, consider optimizing resource allocati
 
 Select a group of systems then examine the histogram to determine if the CPU or Memory Requests are too high (yellow).
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 Click on the blue headers to drill into those impacted pods. Here we've gone into the "Memory Request Surplus" group of pods with to examine the waste.
 
-&#x20;
+<figure><img src="../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
 
 ### Detect full or imbalanced nodes
 
