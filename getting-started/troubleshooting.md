@@ -6,17 +6,13 @@
 
 * It is recommended to use a Service Credential with the Densify Forwarder as User Credentials will have password timeouts/resets that would cause the Forwarder to fail.  Request a Service ID from support@densify.com.
 
-### **View the logs** <a href="#toc155089468" id="toc155089468"></a>
+### **Viewing the Densify Forwarder log** <a href="#toc155089468" id="toc155089468"></a>
 
 &#x20;
 
 `kubectl logs densify –n <namespace>`
 
-&#x20;
-
-By default, the one-time pod will deploy to the default namespace, so you won't have to specify a namespace.  But if you see the error "Error from server (NotFound): pods "densify" not found" it may indicate the pod was deployed to a non-default namespace.
-
-&#x20;
+&#x20;By default, the one-time pod will deploy to the default namespace, so you won't have to specify a namespace.  But if you see the error "Error from server (NotFound): pods "densify" not found" it may indicate the pod was deployed to a non-default namespace.
 
 A successful completion will look something like this:
 
@@ -143,6 +139,36 @@ Here’s an example of an incorrect schedule, where its set to run every minute:
 * If forwarder is deployed using yaml files,  an outdated version of the git repository may be getting referenced. &#x20;
   * Do a new a “git clone ”.&#x20;
   * If deployed using a Helm chart, run “helm repo update”.
+
+### Check labels are being exported by kube-state-metrics
+
+In order to be able to map kubernetes resources to a NodeGroup and ASG/ScaleSet/MIG you need to publish some labels. In many configurations kube-state-metrics does not by default publish any labels. You must define these labels by passing the argument "--metric-labels-allowlist" and a value to the kube-state-metrics container.
+
+Confirm the namespace and deployment name of kube-state-metrics
+
+`kubectl get deploy --all-namespaces | grep kube-state-metrics`
+
+<figure><img src="../.gitbook/assets/image (31).png" alt=""><figcaption></figcaption></figure>
+
+Highlighted item #1 is your namespace, #2 is your deployment name.
+
+Verify the command-line passed to the kube-state-metrics pod
+
+`kubectl get deploy -n -o yaml | grep metric-labels-allowlist`
+
+You should see something like this:
+
+<figure><img src="../.gitbook/assets/image (32).png" alt=""><figcaption></figcaption></figure>
+
+Or you may see a specific list of labels being exported. If nothing is being returned then no container labels are being exported. You can fix this by directly editing the config of the deployment (not recommended), or by editing the deployment YAML file to include this command-line parameter and re-deploying.
+
+### Verify the cronjob is scheduled
+
+`kubectl get cronjob --all-namespaces | grep densify`
+
+<figure><img src="../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
+
+You should see a cron job (#1) called densify-job and it should be running in the same namespace (#2) where you created the configmap.
 
 ### **Cluster Re-Paving**
 
