@@ -20,7 +20,7 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 \*_coming soon_
 
-## **Steps to Detect Risks** ![](<../.gitbook/assets/image (2) (1) (1).png>)
+## **Steps to Detect Risks** ![](<../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 ### **Detecting** CPU Throttling
 
@@ -46,7 +46,7 @@ Click on the blue headers to drill into those impacted pods.  Here we've gone in
 
 Select Nodes from the left-side navigator.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click the link for "Node Group Analysis" at the top of the tabular view.  We then descend sort the "Average Memory Utilization" column and see the node groups with very high memory usage.  We'll take a closer look at the first node pool "pool-1" in the GKE cluster.
 

@@ -24,17 +24,39 @@
     * Messages showing a fatal error mean the data collection didn't complete successfully
     * Near completion you should see a message "zipping \<clustername>.zip" and the number of files should be dozens.  If it's a small number (say, under 10) then there is almost certainly an issue.
     * If the file upload is unsuccessful, it may mean the instance is unreachable or hasn't been configured for containers yet.
-*   **Prometheus Not Setup Properly for Densify**
+*   **Verify both kube-state-metrics and node-exporter are running.  Both components must be installed and running in order to get actionable recommendations from Densify.**
 
-    * Verify Prometheus is deployed and running
+    `kubectl get svc --all-namespaces | grep kube-state-metrics`
 
-    `kubectl get deploy --all-namespaces | grep prometheus`
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+    `kubectl get svc --all-namespaces | grep node-exporter`
 
-    * Review the pre-requisites for your desired approach to data collection
-    * A detailed list of metrics (and their sources) is provided at [https://github.com/densify-dev/container-data-collection/tree/main/docs#prometheus-metrics](https://github.com/densify-dev/container-data-collection/tree/main/docs#prometheus-metrics)
-    * Consider using the Helm - All In One Installation method as it will provide a Prometheus stack that includes are necessary components required for Densify.&#x20;
+    <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+* **Prometheus Not Setup Properly for Densify**
+  * Review the pre-requisites for your desired approach to data collection
+  * A detailed list of metrics (and their sources) is provided at [https://github.com/densify-dev/container-data-collection/tree/main/docs#prometheus-metrics](https://github.com/densify-dev/container-data-collection/tree/main/docs#prometheus-metrics)
+  * Consider using the Helm - All In One Installation method as it will provide a Prometheus stack that includes are necessary components required for Densify.&#x20;
+  * Verify Prometheus is deployed and running
+
+`kubectl get deploy --all-namespaces | grep prometheus`
+
+<figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+*   **Check the service name for prometheus**
+
+    `kubectl get svc --all-namespaces | grep prometheus | grep -v 'kube-system|grafana|kube-state-metrics|alertmanager|exporter'`
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+
+* Highlighted item #1 is the service name, #2 is the namespace, #3 is the port.  You're looking for a service that is (by default) using port 9090 or 9091 and may have a similar name to that shown above.
+* Add the namespace and ".svc" to the end
+  *   If your service name is "prometheus-kube-prometheus-prometheus" and your namespace is "monitoring", then your fully qualified prometheus address is:
+
+      prometheus-kube-prometheus-prometheus.monitoring.svc
+
+      The ".svc" is usually optional but may be required in some circumstances.
+*
 * **Proxy**
   * Some deployments may require the use of a proxy service to forward data back to Densify
   * Update the Proxy section of the configmap.yaml file and rerun the job &#x20;
@@ -72,10 +94,5 @@ Here’s an example of an incorrect schedule, where its set to run every minute:
   * If forwarder is deployed using yaml files,  an outdated version of the git repository may be getting referenced. &#x20;
     * Do a new a “git clone ”.&#x20;
     * If deployed using a Helm chart, run “helm repo update”.
-*
-
-
-
 * **Cluster Re-Paving**
   * Some deployments use devops processes such as cluster repaving to complete destroy the cluster and rebuild it from scratch via codified declarations - Densify's Data Forwarder will need to be part of that process or will be removed when repaving happens
-
