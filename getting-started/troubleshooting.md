@@ -76,7 +76,10 @@ A successful completion will look something like this:
 <figure><img src="../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 
 * If you receive an error similar to "\*\* server can't find \<prometheus\_address>" then the address in unreachable. Verify you've included .svc at the end of the service name.  If there is a name resolution issue you will need to engage your internal Kubernetes team to resolve.
-*
+
+### How to hard-code the prometheus IP&#x20;
+
+If you can't reach prometheus using the service name, it could indicate a name resolution problem. For testing purposes, you can try using the IP address instead.
 
 ### **Proxy**
 
