@@ -33,7 +33,6 @@
 * [Automation](automation/README.md)
   * [Kubex Mutating Admission Controller](automation/kubex-mutating-admission-controller.md)
   * [Integrating with you CI/CD](automation/integrating-with-you-ci-cd.md)
-* [Troubleshooting & FAQs](troubleshooting-and-faqs.md)
 * [Administration](administration/README.md)
   * [Single-Sign-On](administration/single-sign-on.md)
   * [Managing Users & Roles](administration/managing-users-and-roles.md)
