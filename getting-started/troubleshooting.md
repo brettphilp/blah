@@ -24,10 +24,17 @@
     * Messages showing a fatal error mean the data collection didn't complete successfully
     * Near completion you should see a message "zipping \<clustername>.zip" and the number of files should be dozens.  If it's a small number (say, under 10) then there is almost certainly an issue.
     * If the file upload is unsuccessful, it may mean the instance is unreachable or hasn't been configured for containers yet.
-* **Prometheus Not Setup Properly for Densify**
-  * Review the pre-requisites for your desired approach to data collection
-  * A detailed list of metrics (and their sources) is provided at [https://github.com/densify-dev/container-data-collection/tree/main/docs#prometheus-metrics](https://github.com/densify-dev/container-data-collection/tree/main/docs#prometheus-metrics)
-  * Consider using the Helm - All In One Installation method as it will provide a Prometheus stack that includes are necessary components required for Densify.&#x20;
+*   **Prometheus Not Setup Properly for Densify**
+
+    * Verify Prometheus is deployed and running
+
+    `kubectl get deploy --all-namespaces | grep prometheus`
+
+    <figure><img src="../.gitbook/assets/image (28).png" alt=""><figcaption></figcaption></figure>
+
+    * Review the pre-requisites for your desired approach to data collection
+    * A detailed list of metrics (and their sources) is provided at [https://github.com/densify-dev/container-data-collection/tree/main/docs#prometheus-metrics](https://github.com/densify-dev/container-data-collection/tree/main/docs#prometheus-metrics)
+    * Consider using the Helm - All In One Installation method as it will provide a Prometheus stack that includes are necessary components required for Densify.&#x20;
 * **Proxy**
   * Some deployments may require the use of a proxy service to forward data back to Densify
   * Update the Proxy section of the configmap.yaml file and rerun the job &#x20;
@@ -43,7 +50,32 @@ Here’s an example of an incorrect schedule, where its set to run every minute:
 
 <figure><img src="../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
 
+* **Fatal error "HTTP status code: 401, Message: message: Unauthorized"**&#x20;
+  * Means the credentials you specified are invalid. Check they were specified correctly in the configmap.
+* **"\[ERROR] Failed to connect to Prometheus"**&#x20;
+  * Your Prometheus service is unreachable. Check it was specified correctly in the configmap and is reachable within the cluster. There are instructions below to confirm the correct address to use, as well as how to test using the hard-coded IP address.
+* **"Permission denied" saving the Zip file**&#x20;
+  * In the configmap try changing the value "zipname" from \<cluster\_name> to data/\<cluster\_name>
+*   **x509 Errors**
+
+    * Customer can hit this error sometimes if they are using a web filter/firewall/gateway device that is configured for deep SSL inspection (i.e. FortiGate web filter). This feature can ‘break’ the SSL certificate chain.
+
+    <figure><img src="../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
+
+    * A troubleshooting tool is available, comprised of a pod that can be deployed which would provide helpful output that can be sent to support@densify.com.  Output will show details of certificate chain, Densify support can then validate whether the issues is customer side issue or not.&#x20;
+      * Tool can be found here: [https://github.com/densify-dev/cert-output](https://github.com/densify-dev/cert-output)&#x20;
+      * Instructions for deployment found here: [https://github.com/densify-dev/cert-output/blob/main/examples/README.md](https://github.com/densify-dev/cert-output/blob/main/examples/README.md)
+    * Another reason a customer can hit this error, is if their Prometheus instance requires authentication. In this case they would need to follow [the Authenticated Prometheus setup](https://github.com/densify-dev/container-data-collection/tree/main/single-cluster/examples/bearer-openshift) to run the forwarder. The config map needs to enable the settings for cert and token to make sure the forwarder knows where to find the cert and token it needs for authentication.
+* **Error 403**&#x20;
+  * Ensure you have implemented the cluster role binding exactly as specified in the clusterrolebinding.yml in [the Authenticated Prometheus instructions](https://github.com/densify-dev/container-data-collection/tree/main/single-cluster/examples/bearer-openshift).
+* **Data forwarder is the wrong version**&#x20;
+  * If forwarder is deployed using yaml files,  an outdated version of the git repository may be getting referenced. &#x20;
+    * Do a new a “git clone ”.&#x20;
+    * If deployed using a Helm chart, run “helm repo update”.
 *
+
+
+
 * **Cluster Re-Paving**
   * Some deployments use devops processes such as cluster repaving to complete destroy the cluster and rebuild it from scratch via codified declarations - Densify's Data Forwarder will need to be part of that process or will be removed when repaving happens
 
