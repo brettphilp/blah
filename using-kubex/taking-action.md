@@ -14,7 +14,7 @@ Extraction can be accomplished via the extract widget in the UI and publishing t
 
 Once application owners are in agreement to action, the recommendations can then be adopted through desired [DevOps or GitOps workflows](../automation/) as per usual change operations.
 
-**Special Note for Memory Constrained Clusters :**
+**Special Note for Constrained Clusters :**
 
 In instances where any nodes are experiencing saturation—such as in the case of memory constraints—downsizing containers may lead to an increased number of deployments on each node, potentially exacerbating the situation. Typically, there exists a combination of underutilized and overutilized nodes, which complicates the matter. Specifically, if an undersized container is allocated to a node that is already under stress (where utilization exceeds the aggregate resource requests), this can further aggravate the problem.
 
