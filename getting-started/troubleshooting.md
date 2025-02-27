@@ -172,4 +172,5 @@ You should see a cron job (#1) called densify-job and it should be running in th
 
 ### **Cluster Re-Paving**
 
-* Some deployments use devops processes such as cluster repaving to complete destroy the cluster and rebuild it from scratch via codified declarations - Densify's Data Forwarder will need to be part of that process or will be removed when repaving happens
+* Some deployments use devops processes such as cluster repaving to periodically completely destroy the cluster and rebuild it from scratch via codified declarations - Densify's Data Forwarder will need to be part of the cluster deployment process / template or will be removed when repaving happens.
+
