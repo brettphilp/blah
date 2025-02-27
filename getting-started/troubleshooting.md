@@ -81,6 +81,16 @@ A successful completion will look something like this:
 
 If you can't reach prometheus using the service name, it could indicate a name resolution problem. For testing purposes, you can try using the IP address instead.
 
+`kubectl get svc <your prometheus service> -n <namespace>`
+
+<figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
+
+Test this IP address in your configmap. If this configuration works, then we have a name resolution issue. See the article below for suggestions:
+
+[https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/](https://kubernetes.io/docs/tasks/administer-cluster/dns-debugging-resolution/)
+
+You should not leave the forwarder configured to use a hard-coded IP address as these often change. If there is a name resolution issue you will need to engage your internal Kubernetes team to resolve.
+
 ### **Proxy**
 
 * Some deployments may require the use of a proxy service to forward data back to Densify
