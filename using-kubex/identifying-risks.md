@@ -70,3 +70,5 @@ Select a group of systems then examine the histogram to determine if the Memory 
 *
 
     <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+With risks detected the next step is to take action to remedy the risks.  For more information on approaches to taking action skip to "[Taking Action](taking-action.md)".
