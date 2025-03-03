@@ -1,6 +1,10 @@
 # Detecting Waste
 
-To effectively reduce waste in Kubernetes, consider optimizing resource allocation by right-sizing your workloads. Analyze the current usage patterns of your pods and nodes to identify opportunities for downsizing or terminating underutilized resources. Leverage autoscaling to dynamically adjust resources based on real-time demand, ensuring efficient use of infrastructure. Use cost visualization tools to gain insights into spending patterns. For public cloud hosted clusters, regularly review and adjust your provider settings to align with any negotiated pricing discounts available to you.
+To effectively reduce waste in Kubernetes, consider optimizing resource allocation by right-sizing your workloads. Analyze the current usage patterns of your pods and nodes to identify opportunities for downsizing or terminating underutilized resources.&#x20;
+
+Generally you pay for node resources so it follows that if you run on less nodes then you will pay less cost.   Some clusters are small (2-3 nodes) and designed for specific purposes and not the best targets for waste reduction.  Instead we focus on the larger (and typically more general purpose) clusters to detect waste.&#x20;
+
+Leverage autoscaling to dynamically adjust resources based on real-time demand, ensuring efficient use of infrastructure. Use cost visualization tools to gain insights into spending patterns. For public cloud hosted clusters, regularly review and adjust your provider settings to align with any negotiated pricing discounts available to you.
 
 **Kubernetes waste and causes include;**
 
@@ -9,7 +13,13 @@ To effectively reduce waste in Kubernetes, consider optimizing resource allocati
 
 ## **Steps to Detect Waste** ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png>)
 
-### Detect pod unset requests or reduce requests
+### Targeting a Node Group
+
+Instead of looking at the entire infrastructure at once, we'll choose node groups of interest based on their node-level surpluses and constraints.
+
+\*<mark style="color:red;background-color:red;">\*\*\*\*\*\*\*\*\*\*\*</mark>
+
+### Detect pod unset requests or oversized requests
 
 Select a group of systems then examine the histogram to determine if the CPU or Memory Requests are too high (yellow).
 
