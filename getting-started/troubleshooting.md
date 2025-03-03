@@ -10,7 +10,7 @@
 
 &#x20;
 
-`kubectl logs densify –n <namespace>`
+`kubectl logs`` ``kubex-kubex-stack -n <namespace>`
 
 &#x20;By default, the one-time pod will deploy to the default namespace, so you won't have to specify a namespace.  But if you see the error "Error from server (NotFound): pods "densify" not found" it may indicate the pod was deployed to a non-default namespace.
 
