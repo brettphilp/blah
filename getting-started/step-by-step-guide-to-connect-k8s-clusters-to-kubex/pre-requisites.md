@@ -12,7 +12,7 @@ The data forwarder is  supported on Linux OS and x64 architectures
 
 There are 3 methods for setting up the data forwarder
 
-1. Helm - "All in One Install"
+1. Helm - "All in One Install" (preferred)
 2. Manual Prometheus
 3. CSP Managed Prometheus
 

@@ -8,11 +8,19 @@
 
 ### **Viewing the Densify Forwarder log** <a href="#toc155089468" id="toc155089468"></a>
 
-&#x20;
+Inspect the log for the Densify Forwarder job.  _kubectl logs_ can be used as documented at [https://kubernetes.io/docs/reference/kubectl/generated/kubectl\_logs/](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs/)
 
-`kubectl logs`` ``kubex-kubex-stack -n <namespace>`
+For example using the All-In-One method of collection you would specify
 
-&#x20;By default, the one-time pod will deploy to the default namespace, so you won't have to specify a namespace.  But if you see the error "Error from server (NotFound): pods "densify" not found" it may indicate the pod was deployed to a non-default namespace.
+`kubectl logs kubex-kubex-stack -n densify`&#x20;
+
+For example using the manual method of collection you would specify
+
+`kubectl logs densify`&#x20;
+
+If you see "Error from server (NotFound): pods "densify" not found" it may indicate the pod was deployed to a non-default namespace.  In that case try to specify as follows with the appropriate namespace where you deployed the Forwarder.
+
+`kubectl logs densify -n <namspace>`
 
 A successful completion will look something like this:
 
