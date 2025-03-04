@@ -32,7 +32,7 @@
   * [API Reference](api-and-integration/api-reference.md)
 * [Automation](automation/README.md)
   * [Kubex Mutating Admission Controller](automation/kubex-mutating-admission-controller.md)
-  * [Integrating with you CI/CD](automation/integrating-with-you-ci-cd.md)
+  * [Integrating with your CI/CD Pipeline](automation/integrating-with-your-ci-cd-pipeline.md)
 * [Administration](administration/README.md)
   * [Single-Sign-On](administration/single-sign-on.md)
   * [Managing Users & Roles](administration/managing-users-and-roles.md)
