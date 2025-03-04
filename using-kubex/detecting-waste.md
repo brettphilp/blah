@@ -31,7 +31,7 @@ Instead of looking at the entire infrastructure at once, we'll choose node group
 
     <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 * Step 8 - Click the blue CPU Request Surplus to review the related pod recommendations
-* Step 9 - Filter on the Node Group identified during Step 5.
+* Step 9 - Filter on the Node Group identified during Step 5 to review the CPU Request resizing recommendations.
 *
 
     <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
