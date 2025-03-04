@@ -35,11 +35,11 @@ A successful completion will look something like this:
 
 `kubectl get svc --all-namespaces | grep kube-state-metrics`
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 `kubectl get svc --all-namespaces | grep node-exporter`
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Prometheus Not Setup Properly for Densify**
 
@@ -56,7 +56,7 @@ A successful completion will look something like this:
 
     `kubectl get svc --all-namespaces | grep prometheus | grep -v 'kube-system|grafana|kube-state-metrics|alertmanager|exporter'`
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Highlighted item #1 is the service name, #2 is the namespace, #3 is the port.  You're looking for a service that is (by default) using port 9090 or 9091 and may have a similar name to that shown above.
 * Add the namespace and ".svc" to the end

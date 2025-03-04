@@ -11,19 +11,26 @@ Leverage autoscaling to dynamically adjust resources based on real-time demand, 
 * Stranded Resource - CPU or Memory Request too high or not set
 * Too Many Nodes Active - Cluster Scaling too high&#x20;
 
-## **Steps to Detect Waste** ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png>)
+## **Steps to Detect Waste** ![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 ### Targeting a Node Group
 
 Instead of looking at the entire infrastructure at once, we'll choose node groups of interest based on their node-level surpluses and constraints.
 
-\*<mark style="color:red;background-color:red;">\*\*\*\*\*\*\*\*\*\*\*</mark>
+* Step 1 - In Kubex select Nodes from the left-side navigator ![](../.gitbook/assets/image.png)
+* Step 2 - descending sort the "Avg no. of Nodes" column to show the largest node groups first ![](<../.gitbook/assets/image (1).png>)
+* Step 3 - from the right-side Columns selector enable "Primary Constraints" and filter it on Requests  ![](<../.gitbook/assets/image (2).png>)
+* Step 4 - the ideal node groups to target for waste will be those with a high avg. number of nodes and low utilization for the non-primary constraint.  For example if CPU requests is the primary constraints then target node groups where CPU Request is the constraint and Memory Utilization is low.  For example set the "Avg Memory Utilization (%)" to be less then 50. ![](<../.gitbook/assets/image (3).png>)
+* Step 5 - Now you can see a list of clusters that are constrained by CPU Requests and where memory utilization is low. &#x20;
+* Next we choose each group to review the related container resizing recommendations to reduce CPU Requests.
+
+
 
 ### Detect pod unset requests or oversized requests
 
 Select a group of systems then examine the histogram to determine if the CPU or Memory Requests are too high (yellow).
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on the blue headers to drill into those impacted pods. Here we've gone into the "Memory Request Surplus" group of pods with to examine the waste.
 
