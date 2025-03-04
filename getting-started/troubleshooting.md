@@ -35,7 +35,7 @@ A successful completion will look something like this:
 
 `kubectl get svc --all-namespaces | grep kube-state-metrics`
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 `kubectl get svc --all-namespaces | grep node-exporter`
 

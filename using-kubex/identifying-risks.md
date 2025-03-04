@@ -26,11 +26,11 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 Select a group of systems then examine the histogram to determine if the CPU Requests or Limits are too small (red), or not set (gray).
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on the blue headers to drill into those impacted pods.  Here we've gone into the "CPU Request Shortfall" group of risky pods to examine the risks.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Detecting Noisy Neighbors
 
@@ -65,10 +65,10 @@ Select a group of systems then examine the histogram to determine if the Memory 
 * Click on the blue headers to drill into those impacted pods.  Here we've gone into the "Memory Request Shortfall" group of risky pods to examine the risks
 *
 
-    <figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Sorting on "Restarts - Last Day" we can quickly detects pods with restarts and evaluate the "% Nodes Memory Saturation" to see if it may be correlated to a full host.  Scrolling across the lower panel of Utilization Charts we can see time of day information for the "No. of Restarts"
 *
 
-    <figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 With risks detected the next step is to take action to remedy the risks.  For more information on approaches to taking action skip to "[Taking Action](taking-action.md)".
