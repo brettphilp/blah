@@ -8,7 +8,7 @@
 
 {% embed url="https://densify.com/docs-api/WebHelp_Densify_API_Cloud/Content/API_Guide/Optimizing_Kubernetes_Containers.htm" %}
 
-**Example Use case**
+**Postman Example Use Case Collection**
 
 Top 10 Memory limit problems
 
