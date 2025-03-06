@@ -4,7 +4,8 @@ generic statement to call your AM for customization request…&#x20;
 
 * policy tuning
 * analysis customization
-* UI changes or custom reporting
+* UI changes
 * tag mapping
-* API Subscriptions
+* [API Subscriptions](../api-and-automation/)
 * Excluding/snoozing recos
+
