@@ -1,6 +1,6 @@
 # Eliminating Risks
 
-### **Steps to Eliminate Risks** ![](<../../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
+### **Steps to Eliminate Risks** ![](<../.gitbook/assets/image (2) (1) (1) (1) (1).png>)
 
 Risk are caused by the deployment of containers with unset or poorly set request and limit values for CPU and memory resources.
 
@@ -28,49 +28,49 @@ Risk are caused by the deployment of containers with unset or poorly set request
 
 Select a group of systems then examine the histogram to determine if the CPU Requests or Limits are too small (red), or not set (gray).
 
-<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click on the blue headers to drill into those impacted pods.  Here we've gone into the "CPU Request Shortfall" group of risky pods to examine the risks.
 
-<figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **Eliminate** Noisy Neighbors
 
 Select a group of systems then examine the histogram to determine if the CPU or Memory Limits are not set (gray), or too big (yellow).
 
-<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
 Click on the blue headers to drill into those impacted pods.  Here we've gone into the "Oversized Memory Limit" group of risky pods to examine the risks.
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
 ### **Eliminate** Node Over Stacking
 
 Select Nodes from the left-side navigator.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Click the link for "Node Group Analysis" at the top of the tabular view.  We then descend sort the "Average Memory Utilization" column and see the node groups with very high memory usage.  We'll take a closer look at the first node pool "pool-1" in the GKE cluster.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next from the left-side view and filter navigator we pick the "GKE" cluster, expand the cluster to see the node pools and choose the "pool-1" group.  We then picked "Nodes" from above the tabular view.  Finally we descend sorted on "Memory Utilization" to identify a troubled node.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ### **Eliminate the OOM Kills and Restarts**&#x20;
 
 Select a group of systems then examine the histogram to determine if the Memory Requests or Limits are too small (red) or not set (gray)
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Click on the blue headers to drill into those impacted pods.  Here we've gone into the "Memory Request Shortfall" group of risky pods to examine the risks
 *
 
-    <figure><img src="../../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 * Sorting on "Restarts - Last Day" we can quickly detects pods with restarts and evaluate the "% Nodes Memory Saturation" to see if it may be correlated to a full host.  Scrolling across the lower panel of Utilization Charts we can see time of day information for the "No. of Restarts"
 *
 
-    <figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
-With risks detected the next step is to take action to remedy the risks.  For more information on approaches to taking action skip to "[Taking Action](../taking-action.md)".
+With risks detected the next step is to take action to remedy the risks.  For more information on approaches to taking action skip to "[Taking Action](taking-action.md)".
