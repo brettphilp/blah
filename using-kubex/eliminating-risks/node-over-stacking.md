@@ -6,7 +6,7 @@ Select Nodes from the left-side navigator.
 
 Click the link for "Node Group Analysis" at the top of the tabular view. We then descend sort the "Average Memory Utilization" column and see the node groups with very high memory usage. We'll take a closer look at the first node pool "pool-1" in the GKE cluster.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next from the left-side view and filter navigator we pick the "GKE" cluster, expand the cluster to see the node pools and choose the "pool-1" group. We then picked "Nodes" from above the tabular view. Finally we descend sorted on "Memory Utilization" to identify a troubled node.
 

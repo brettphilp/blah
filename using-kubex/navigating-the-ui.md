@@ -4,4 +4,10 @@ By navigating through the dashboard, users can drill down into specific environm
 
 <mark style="color:yellow;">Joanne's video and content around UI elements would fit well here</mark>
 
-[<mark style="color:yellow;">https://www.densify.com/docs-kubex/Content/Welcome.htm</mark>](https://www.densify.com/docs-kubex/Content/Welcome.htm)
+{% embed url="https://www.densify.com/docs-kubex/Content/Welcome.htm" %}
+
+<mark style="color:yellow;">Summary Screen</mark>
+
+<mark style="color:yellow;">Histograms</mark>
+
+<mark style="color:yellow;">AI Analysis</mark>
