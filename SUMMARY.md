@@ -24,7 +24,7 @@
   * [Troubleshooting](getting-started/troubleshooting.md)
 * [Using Kubex](using-kubex/README.md)
   * [Navigating the UI](using-kubex/navigating-the-ui.md)
-  * [Detecting Risks](using-kubex/identifying-risks.md)
+  * [Detecting Risks2](using-kubex/detecting-risks2.md)
   * [Detecting Waste](using-kubex/detecting-waste.md)
   * [Taking Action](using-kubex/taking-action.md)
   * [Customization](using-kubex/customization.md)
