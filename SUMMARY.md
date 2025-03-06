@@ -11,6 +11,7 @@
   * [Navigating the UI](using-kubex/navigating-the-ui.md)
   * [Eliminating Risks](using-kubex/detecting-risks.md)
     * [CPU Throttling](using-kubex/eliminating-risks/cpu-throttling.md)
+    * [Noisy Neighbors](using-kubex/eliminating-risks/noisy-neighbors.md)
   * [Eliminate Waste](using-kubex/detecting-waste.md)
     * [Page 1](using-kubex/eliminate-waste/page-1.md)
   * [Taking Action](using-kubex/taking-action.md)
