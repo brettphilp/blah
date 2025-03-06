@@ -17,7 +17,6 @@
     * [OOM Kills and Restarts](using-kubex/eliminating-risks/oom-kills-and-restarts.md)
   * [Eliminate Waste](using-kubex/detecting-waste.md)
     * [Page 1](using-kubex/eliminate-waste/page-1.md)
-  * [Taking Action](using-kubex/taking-action.md)
 * [API & Automation](api-and-automation/README.md)
   * [API Reference](api-and-automation/api-reference.md)
   * [Automation](api-and-automation/automation/README.md)
