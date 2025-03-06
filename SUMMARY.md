@@ -9,6 +9,7 @@
   * [Reviewing your Results](getting-started/reviewing-your-results.md)
 * [Using Kubex](using-kubex/README.md)
   * [Navigating the UI](using-kubex/navigating-the-ui.md)
+  * [Constrained Clusters](using-kubex/constrained-clusters.md)
   * [Eliminating Risks](using-kubex/detecting-risks.md)
     * [CPU Throttling](using-kubex/eliminating-risks/cpu-throttling.md)
     * [Noisy Neighbors](using-kubex/eliminating-risks/noisy-neighbors.md)
