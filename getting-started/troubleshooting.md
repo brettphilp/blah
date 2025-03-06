@@ -1,9 +1,5 @@
 # Troubleshooting
 
-### **User Credential vs. Service Credential**
-
-It is recommended to use a Service Credential with the Densify Forwarder as User Credentials will have password timeouts/resets that would cause the Forwarder to fail.  Request a Service ID from support@densify.com.
-
 ### **Viewing the Densify Forwarder log** <a href="#toc155089468" id="toc155089468"></a>
 
 Inspect the log for the Densify Forwarder job.  _kubectl logs_ can be used as documented at [https://kubernetes.io/docs/reference/kubectl/generated/kubectl\_logs/](https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs/)
