@@ -2,7 +2,7 @@
 
 ### **User Credential vs. Service Credential**
 
-* It is recommended to use a Service Credential with the Densify Forwarder as User Credentials will have password timeouts/resets that would cause the Forwarder to fail.  Request a Service ID from support@densify.com.
+It is recommended to use a Service Credential with the Densify Forwarder as User Credentials will have password timeouts/resets that would cause the Forwarder to fail.  Request a Service ID from support@densify.com.
 
 ### **Viewing the Densify Forwarder log** <a href="#toc155089468" id="toc155089468"></a>
 
@@ -51,4 +51,4 @@ A troubleshooting tool is available, comprised of a pod that can be deployed whi
 
 ### **Cluster Re-Paving**
 
-* Some deployments use devops processes such as cluster repaving to periodically completely destroy the cluster and rebuild it from scratch via codified declarations - Densify's Data Forwarder will need to be part of the cluster deployment process / template or will be removed when repaving happens.
+Some deployments use devops processes such as cluster repaving to periodically completely destroy the cluster and rebuild it from scratch via codified declarations - Densify's Data Forwarder will need to be part of the cluster deployment process / template or will be removed when repaving happens.
