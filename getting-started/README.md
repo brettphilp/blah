@@ -1,3 +1,2 @@
-# K8s Data Collection
+# Getting Started
 
-Densify support any Prometheus PromQL compliant data source.&#x20;
