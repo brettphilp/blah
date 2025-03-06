@@ -26,7 +26,7 @@ For each of the Risk item recommendations are available for actioning. &#x20;
 
 Most risks can be handled by setting container resource request and / or limit settings based on actual historical usage data.  The recommendations to set or adjust these settings are found on the container details screen. &#x20;
 
-Here we show the Namespace level for a group of containers with memory request recommendations (upsize in this case to reduce risk).
+Here we show the Namespace level for a group of containers with memory request recommendations (both set as well as upsize in this case to reduce risk).
 
 <figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
