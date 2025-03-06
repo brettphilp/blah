@@ -5,9 +5,3 @@ By navigating through the dashboard, users can drill down into specific environm
 <mark style="color:yellow;">Joanne's video and content around UI elements would fit well here</mark>
 
 {% embed url="https://www.densify.com/docs-kubex/Content/Welcome.htm" %}
-
-<mark style="color:yellow;">Summary Screen</mark>
-
-<mark style="color:yellow;">Histograms -ie what the bell means</mark>
-
-<mark style="color:yellow;">AI Analysis</mark>
