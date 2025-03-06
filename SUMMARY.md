@@ -1,8 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
-  * [Kubex Overview](introduction/kubex-overview.md)
-  * [Benefit of Kubernetes Optimization](introduction/benefit-of-kubernetes-optimization.md)
+* [Kubex Overview](README.md)
 * [Getting Started](getting-started/README.md)
   * [Obtain a Service Credential](getting-started/obtain-a-service-credential.md)
   * [Deploy the Densify Forwarder](getting-started/deploy-the-densify-forwarder.md)
