@@ -4,6 +4,6 @@ Select a group of systems then examine the histogram to determine if the CPU or 
 
 <figure><img src="../../.gitbook/assets/image (39).png" alt=""><figcaption></figcaption></figure>
 
-Click on the blue headers to drill into those impacted pods. Here we've gone into the "Oversized Memory Limit" group of risky pods to examine the risks.
+Click on the blue headers to drill into those impacted pods. Here we've gone into the "Oversized Memory Limit" group of risky pods to examine the risks and associated recommendations.
 
 <figure><img src="../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
