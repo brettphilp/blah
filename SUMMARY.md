@@ -12,7 +12,6 @@
   * [Detecting Risks](using-kubex/detecting-risks.md)
   * [Detecting Waste](using-kubex/detecting-waste.md)
   * [Taking Action](using-kubex/taking-action.md)
-  * [Customization](using-kubex/customization.md)
 * [API & Integration](api-and-integration/README.md)
   * [API Reference](api-and-integration/api-reference.md)
 * [Automation](automation/README.md)
@@ -31,3 +30,4 @@
   * [Troubleshooting](getting-started/troubleshooting.md)
   * [Support & Resources](support-and-resources.md)
     * [Getting Help](new-user-guide/getting-help.md)
+  * [Customization](faq/customization.md)
