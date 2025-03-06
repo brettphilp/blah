@@ -10,9 +10,9 @@ Here we show the Namespace level for a group of containers with memory request r
 
 From here customers often find it helpful to extract or publish these recommendations to internal users.  FinOps practitioners refer to this stage as socializing or campaigning of the optimization recommendations. &#x20;
 
-Extraction can be accomplished via the extract widget in the UI and publishing to third party BI tool can be accomplished via the [Densify API.](../api-and-integration/)
+Extraction can be accomplished via the extract widget in the UI and publishing to third party BI tool can be accomplished via the [Densify API.](../api-and-automation/)
 
-Once application owners are in agreement to action, the recommendations can then be adopted through desired [DevOps or GitOps workflows](../automation/) as per usual change operations.
+Once application owners are in agreement to action, the recommendations can then be adopted through desired [DevOps or GitOps workflows](../api-and-automation/automation/) as per usual change operations.
 
 **Special Note for Constrained Clusters :**
 
