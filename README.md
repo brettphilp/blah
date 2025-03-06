@@ -1,5 +1,3 @@
-# Welcome
+# Introduction
 
-Kubex is AI -driven analytics that precisely determine optimal resource settings for Kubernetes.
-
-[https://www.densify.com/kubex-product-walkthrough-video/](https://www.densify.com/kubex-product-walkthrough-video/)
+<mark style="color:yellow;">Marketing content from website?</mark>
