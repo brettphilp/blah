@@ -12,6 +12,8 @@
   * [Eliminating Risks](using-kubex/detecting-risks.md)
     * [CPU Throttling](using-kubex/eliminating-risks/cpu-throttling.md)
     * [Noisy Neighbors](using-kubex/eliminating-risks/noisy-neighbors.md)
+    * [Node Over Stacking](using-kubex/eliminating-risks/node-over-stacking.md)
+  * [OOM Kills and Restarts](using-kubex/oom-kills-and-restarts.md)
   * [Eliminate Waste](using-kubex/detecting-waste.md)
     * [Page 1](using-kubex/eliminate-waste/page-1.md)
   * [Taking Action](using-kubex/taking-action.md)

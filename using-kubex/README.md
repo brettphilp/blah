@@ -12,7 +12,7 @@ The histogram not only highlights inefficiencies but also allows companies to id
 
 The color-coded system (red, yellow, green) is a crucial feature that simplifies the complex data associated with resource health. It allows users to quickly ascertain which containers are at risk (red), which are over-allocated (yellow), and which are functioning optimally (green), making it easier to address issues before they escalate.
 
-<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 The ability to group histograms by application, business unit, or region provides a multi-dimensional view of resource allocation. This dynamic analysis is essential for organizations with diverse operations, as it enables targeted interventions and optimizations.
 
