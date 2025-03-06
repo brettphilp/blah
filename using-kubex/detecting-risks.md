@@ -26,9 +26,9 @@ For each of the Risk item recommendations are available for actioning. &#x20;
 
 Most risks can be handled by setting container resource request and / or limit settings based on actual historical usage data.  The recommendations to set or adjust these settings are found on the container details screen. &#x20;
 
-Here we show the Namespace level for a group of containers with memory request recommendations (downsize in this case to reduce waste).
+Here we show the Namespace level for a group of containers with memory request recommendations (upsize in this case to reduce risk).
 
-<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
 
 From here customers often find it helpful to extract or publish these recommendations to internal users.  FinOps practitioners refer to this stage as socializing or campaigning of the optimization recommendations. &#x20;
 
