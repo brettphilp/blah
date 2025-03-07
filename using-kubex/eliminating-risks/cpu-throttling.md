@@ -9,6 +9,8 @@ CPU throttling in Kubernetes refers to the restriction of CPU usage for a contai
 3. **Resource Underutilization**: If CPU limits are set too low, containers may be throttled unnecessarily, leading to underutilization of available CPU resources. This can result in inefficient use of the node's capacity, as other containers may not be able to use the available CPU resources.
 4. **Evictions and Node Pressure**: As described in the [Resource Management for Pods and Containers | Kubernetes](https://kubernetes.io/docs/concepts/configuration/manage-resources-containers/), if a node is under CPU pressure due to throttling, it may lead to pod evictions. This happens when the actual usage exceeds the requests, even if it is within the limits, causing the system to evict pods to free up resources.
 
+**How to Identify CPU Throttling in Kubex**
+
 Select a group of systems then examine the histogram to determine if the CPU Requests or Limits are too small (red), or not set (gray).
 
 <figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
