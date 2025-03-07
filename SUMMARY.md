@@ -21,8 +21,6 @@
     * [Immediate vs. Additional Waste](using-kubex/eliminate-waste/immediate-vs.-additional-waste.md)
     * [Unset and Oversized Pod Requests](using-kubex/eliminate-waste/unset-pod-requests-and-oversized-requests.md)
     * [Oversized Node Groups](using-kubex/eliminate-waste/node-group-oversized.md)
-    * [Full or Imbalanced Nodes](using-kubex/eliminate-waste/full-or-imbalanced-nodes.md)
-    * [Node Group Rescaling Options](using-kubex/eliminate-waste/node-group-rescaling-options.md)
 * [API & Automation](api-and-automation/README.md)
   * [API Reference](api-and-automation/api-reference.md)
   * [Automation](api-and-automation/automation/README.md)
