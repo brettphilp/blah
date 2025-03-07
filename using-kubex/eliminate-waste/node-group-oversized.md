@@ -34,6 +34,6 @@ Instead of looking at the entire infrastructure at once, we'll choose node group
 
 ### Handling Oversized Node Groups
 
-* **Right sizing pods:** eliminate CPU and memory request waste as described under [Unset and Oversized Pod Requests](unset-pod-requests-and-oversized-requests.md) and use [GitOps integration with your source control via the Kubex API](../../api-and-automation/api-reference.md)&#x20;
-* **Cluster Autoscaling:** [the Kubex Mutating Admission Controller ](../../api-and-automation/automation/kubex-mutating-admission-controller.md)can automatically adjust the size of the nod group based on the new demands after pod request Right-Sizing of the workloads running in the cluster
+* **Step 1 - Right sizing pods:** eliminate CPU and memory request waste as described under [Unset and Oversized Pod Requests](unset-pod-requests-and-oversized-requests.md) and using either [GitOps integration with your source control via the Kubex API](../../api-and-automation/api-reference.md) or  [the Kubex Mutating Admission Controller ](../../api-and-automation/automation/kubex-mutating-admission-controller.md)to automatically adjust the resource request and limits of deployed pods
+* **Step 2 - Autoscale the Cluster Nodes:** leverage a [Cluster Autoscaler](https://kubernetes.io/docs/concepts/cluster-administration/node-autoscaling/#autoscaler-implementations) to adjust the size of the node  group based on the new demands after pod request Right-Sizing of the workloads running in the cluster
 
