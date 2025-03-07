@@ -1,5 +1,7 @@
 # CPU Throttling
 
+Saturated resources can lead to CPU throttling or OOM kills for hosted containers. Imbalances in CPU or memory utilization across nodes may indicate future saturation and lead to performance and stability issues in containers.
+
 Select a group of systems then examine the histogram to determine if the CPU Requests or Limits are too small (red), or not set (gray).
 
 <figure><img src="../../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
