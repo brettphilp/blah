@@ -6,7 +6,7 @@ In the case of unset pod cpu or memory resource requests, these are used to info
 
 Oversized pod requests occur when a pod requests more resources than it actually needs. This can happen when developers overestimate the resource requirements of their applications or applications contain sub-optimal code.
 
-#### Why are Unset and Oversized Pods a problem?
+### Why are Unset and Oversized Pod Requests a problem?
 
 1. **Inefficient Scheduling**: Without resource requests, the Kubernetes scheduler cannot make informed decisions about where to place the pod. This can lead to inefficient use of cluster resources and potential overcommitment on nodes.
 2. **Unpredictable Performance**: Pods without resource requests may not receive the resources they need during peak times, leading to degraded performance or even application crashes.
