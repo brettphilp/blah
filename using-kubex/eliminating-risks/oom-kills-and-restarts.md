@@ -2,7 +2,14 @@
 
 OOM (Out of Memory) kills and restarts are mechanisms that manage memory usage within containers and pods. These processes are crucial for maintaining the stability and performance of applications running in a cluster.  OOM kills occur when a container tries to use more memory than its allocated limit.
 
+Restarts occur when a container is terminated and then restarted by the kubelet. This can happen due to OOM kills or other failures.
 
+### Why OOM Kills and Restarts are Problematic
+
+1. **Resource Management**: OOM kills highlight the importance of proper resource management. Containers without adequate memory limits can consume all available memory on a node, affecting other pods and potentially leading to node instability.
+2. **Application Stability**: Applications that frequently hit memory limits and are OOM killed may experience downtime, affecting user experience and service reliability.
+3. **Debugging Complexity**: Identifying the root cause of OOM kills can be challenging. It requires analyzing logs, monitoring resource usage, and understanding application behavior.
+4. **Performance Degradation**: Frequent restarts can degrade the performance of applications, leading to increased response times and reduced throughput.
 
 
 

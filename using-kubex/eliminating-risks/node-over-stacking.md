@@ -2,7 +2,7 @@
 
 Node over stacking refers to the situation where too many workloads (pods) are scheduled on a single node, exceeding the node's capacity in terms of CPU, memory, or other resources.&#x20;
 
-**Why Node Over Stacking is a Problem**
+### **Why Node Over Stacking is a Problem**
 
 1. **Resource Contention**: When multiple pods compete for the same resources, it can lead to performance degradation. Some pods may experience slow response times or even timeouts.
 2. **Pod Evictions**: If a node runs out of resources, Kubernetes may evict pods to free up space for more critical workloads. This can lead to service disruptions, especially for stateful applications.
@@ -10,7 +10,7 @@ Node over stacking refers to the situation where too many workloads (pods) are s
 4. **Unstable Applications**: Applications may become unstable or crash if they do not receive the resources they need to operate effectively.
 5. **Monitoring and Management Challenges**: With too many workloads on a single node, it can become difficult to monitor performance and manage resources effectively.
 
-#### How to identify Node Over Stacking in Kubex
+### How to identify Node Over Stacking in Kubex
 
 Select Nodes from the left-side navigator.
 
