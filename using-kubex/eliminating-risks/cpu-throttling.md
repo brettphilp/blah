@@ -1,6 +1,6 @@
 # CPU Throttling
 
-CPU throttling in Kubernetes refers to the restriction of CPU usage for a container when it attempts to use more CPU resources than it is allowed by its configured limits. This is a mechanism to ensure that no single container can monopolize the CPU resources of a node, thereby affecting the performance of other containers running on the same node.
+CPU throttling refers to the restriction of CPU usage for a container when it attempts to use more CPU resources than it is allowed by its configured limits. This is a mechanism to ensure that no single container can monopolize the CPU resources of a node, thereby affecting the performance of other containers running on the same node.
 
 **Why CPU Throttling is a Problem**
 

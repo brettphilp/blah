@@ -1,5 +1,7 @@
 # OOM Kills and Restarts
 
+OOM (Out of Memory) kills and restarts are mechanisms that manage memory usage within containers and pods. These processes are crucial for maintaining the stability and performance of applications running in a cluster.
+
 Select a group of systems then examine the histogram to determine if the Memory Requests or Limits are too small (red) or not set (gray)
 
 <figure><img src="../../.gitbook/assets/image (41).png" alt=""><figcaption></figcaption></figure>

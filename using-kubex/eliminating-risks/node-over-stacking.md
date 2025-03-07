@@ -1,6 +1,6 @@
 # Node Over Stacking
 
-Node over stacking in Kubernetes refers to the situation where too many workloads (pods) are scheduled on a single node, exceeding the node's capacity in terms of CPU, memory, or other resources.&#x20;
+Node over stacking refers to the situation where too many workloads (pods) are scheduled on a single node, exceeding the node's capacity in terms of CPU, memory, or other resources.&#x20;
 
 **Why Node Over Stacking is a Problem**
 

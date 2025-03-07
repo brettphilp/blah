@@ -1,6 +1,6 @@
 # Noisy Neighbors
 
-A noisy neighbor in Kubernetes refers to a situation where one pod (or set of pods) consumes an excessive amount of shared resources, such as CPU or memory thereby negatively impacting the performance of other pods running on the same node. This scenario typically occurs in a multi-tenant environment where multiple applications or services are deployed on the same cluster.
+A noisy neighbor refers to a situation where one pod (or set of pods) consumes an excessive amount of shared resources, such as CPU or memory thereby negatively impacting the performance of other pods running on the same node. This scenario typically occurs in a multi-tenant environment where multiple applications or services are deployed on the same cluster.
 
 #### Why are Noisy Neighbors a Problem?
 
