@@ -2,7 +2,7 @@
 
 * [Kubex Overview](README.md)
 * [Getting Started](getting-started/README.md)
-  * [Obtain a Service Credential](getting-started/obtain-a-service-credential.md)
+  * [Request a Service Credential](getting-started/request-a-service-credential.md)
   * [Deploy the Densify Forwarder](getting-started/deploy-the-densify-forwarder.md)
   * [Reviewing your Results](getting-started/reviewing-your-results.md)
 * [Using Kubex](using-kubex/README.md)
