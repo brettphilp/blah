@@ -1,6 +1,6 @@
 # Eliminating Risks
 
-### **Steps to Eliminate Risks** ![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png>)
+### **Steps to Eliminate Risks** ![](<../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png>)
 
 Risk are caused by the deployment of containers with unset or poorly set request and limit values for CPU and memory resources.
 
