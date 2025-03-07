@@ -1,5 +1,7 @@
 # Histograms
 
+[https://www.densify.com/docs-kubex/Content/Kubex/Containers%20Analysis.htm](https://www.densify.com/docs-kubex/Content/Kubex/Containers%20Analysis.htm)
+
 The ability to visualize resource allocation through histograms allows organizations to better understand how efficiently their containers are using CPU and memory resources. By knowing where inefficiencies lie, companies can make informed decisions about resource adjustments.
 
 The visual nature of the histograms can also facilitate better communication among different teams within an organization. By presenting data in an easily digestible format, stakeholders can quickly understand resource allocation issues and collaborate on solutions.
