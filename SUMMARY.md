@@ -19,7 +19,7 @@
     * [OOM Kills and Restarts](using-kubex/eliminating-risks/oom-kills-and-restarts.md)
   * [Eliminate Waste](using-kubex/detecting-waste.md)
     * [Immediate vs. Additional Waste](using-kubex/eliminate-waste/immediate-vs.-additional-waste.md)
-    * [Unset and Oversized Pod Requests](using-kubex/eliminate-waste/unset-and-oversized-pod-requests.md)
+    * [Unset and Oversized Pod Requests](using-kubex/eliminate-waste/unset-pod-requests-and-oversized-requests.md)
     * [Node Group Oversized](using-kubex/eliminate-waste/node-group-oversized.md)
     * [Full or Imbalanced Nodes](using-kubex/eliminate-waste/full-or-imbalanced-nodes.md)
     * [Node Group Rescaling Options](using-kubex/eliminate-waste/node-group-rescaling-options.md)
