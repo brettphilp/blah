@@ -5,5 +5,3 @@ The primary screen of the Kubex user interface consists of a navigator tree with
 Two perspectives of the Kubernetes data are available on the left-side navigation for Containers and Nodes.  A Connections section is also available to review connected clusters.  A toggle for dark-mode is also available at the bottom left.
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
-
-[<mark style="color:yellow;">Joanne's video here</mark>](https://www.densify.com/docs-kubex/Content/Kubex/Containers%20Analysis.htm)
