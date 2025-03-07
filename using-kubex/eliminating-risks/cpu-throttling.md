@@ -1,6 +1,6 @@
 # CPU Throttling
 
-Saturated resources can lead to CPU throttling or OOM kills for hosted containers. Imbalances in CPU or memory utilization across nodes may indicate future saturation and lead to performance and stability issues in containers.
+CPU throttling in Kubernetes refers to the restriction of CPU usage for a container when it attempts to use more CPU resources than it is allowed by its configured limits. This is a mechanism to ensure that no single container can monopolize the CPU resources of a node, thereby affecting the performance of other containers running on the same node.
 
 Select a group of systems then examine the histogram to determine if the CPU Requests or Limits are too small (red), or not set (gray).
 
