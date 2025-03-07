@@ -11,7 +11,7 @@ Restarts occur when a container is terminated and then restarted by the kubelet.
 3. **Debugging Complexity**: Identifying the root cause of OOM kills can be challenging. It requires analyzing logs, monitoring resource usage, and understanding application behavior.
 4. **Performance Degradation**: Frequent restarts can degrade the performance of applications, leading to increased response times and reduced throughput.
 
-
+### How to Identify OOM Kills and Restarts
 
 Select a group of systems then examine the histogram to determine if the Memory Requests or Limits are too small (red) or not set (gray)
 
