@@ -35,6 +35,5 @@
   * [Troubleshooting Data Collection](faq/troubleshooting-data-collection.md)
   * [Timing Expectations of Data Collection, Analysis, and Results](new-user-guide/timing-expectations-of-data-collection-analysis-and-results.md)
   * [A word about billing data and “true” costs](new-user-guide/a-word-about-billing-data-and-true-costs.md)
-  * [Upgrading the forwarder](getting-started/alternate-methods-of-data-collection/upgrading-the-forwarder.md)
   * [Support & Resources](faq/support-and-resources.md)
   * [Customization](using-kubex/customization.md)
